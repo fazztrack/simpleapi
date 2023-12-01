@@ -8,8 +8,8 @@ const service = {
   getAll: (req, res) => {
     res.json({
       data: users,
-      status: 'success',
-      message: "Get all user success",
+      status: 'Success',
+      message: "Get all user success"
     });
   },
   getDetail: (req, res) => {
